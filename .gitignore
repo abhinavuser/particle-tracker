@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific
+outputs/
+outputs_backup_*/
+*.mp4
+*.avi
+*.mov
+*.mkv
+videos/
+videos_test/
+*.pt
+yolov8n.pt
+yolov11n.pt
+yolov12n.pt
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data and logs
+*.csv
+*.log
+*.txt
+!requirements.txt
+!README.md
+!COMPLETE_GUIDE.txt
+!DRONE_TRACKING_EXPLAINED.ipynb
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Conda
+.conda/
+*.yml
+!environment.yml
+
+# Temporary files
+*.tmp
+*.temp
+.~*
